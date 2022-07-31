@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>assmint</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var day=['sun','Mon','Tus','Wen','Thu','Fri','Sat',];
+	var dis={'Mon':0,'Tus':0,'Wen':0,'Thu':0,'Fri':0,'Sat':0,'sun':0};
+function solution(D){
+for(var i in D){
+			var l=new Date(parseInt(i.substr(0,4)),parseInt(i.substr(5,6))-1,parseInt(i.substr(8,9)))
+			var temp= day[l.getDay()];
+			dis[temp]=D[i];
+			
+			
+		}
+		var tem=0;
+		for(var i=0;i<day.length;i++){
+
+
+			if(dis[day[i]]==0){
+				dis[day[i]]=(dis[day[i-1]]+dis[day[i+1]])/2
+
+			}
+			console.log(0)
+			
+		}
+		console.log( JSON.stringify(dis));
+		document.getElementById('h').innerHTML=JSON.stringify(dis);
+
+}
+		
+	
+</script>
+<h4> Input {'2020-01-01':6, '2020-01-04': 12,'2020-01-05': 14,'2020-01-06': 2, '2020-01-07':4}</h4>
+<input type="button" name="" value="result" onclick="solution({'2020-01-01':6, '2020-01-04': 12,'2020-01-05': 14,'2020-01-06': 2, '2020-01-07':4})" ><br>
+Output
+<h4 id='h'></h4>
+
+</body>
+</html>
