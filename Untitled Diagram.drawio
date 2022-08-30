@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T15:32:34.151Z" agent="5.0 (Windows)" version="20.2.7" etag="Ro0AZWH7MZzon4SYhs7v" type="github"><diagram id="qXUEVsLhUSPNKrebX3x6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-30T15:42:32.394Z" agent="5.0 (Windows)" etag="OrVrmh5LYyo5fGkbW_wA" version="20.2.7" type="github">
+  <diagram id="qXUEVsLhUSPNKrebX3x6" name="Page-1">
+    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JisXRQTTVyORfnQOxyK4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-1" target="JisXRQTTVyORfnQOxyK4-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-1" value="user open page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-2" target="JisXRQTTVyORfnQOxyK4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-2" target="JisXRQTTVyORfnQOxyK4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-2" value="get session id from server &amp;amp; make connections with server user socket " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-4" target="JisXRQTTVyORfnQOxyK4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-4" value="user place it&#39;s bit " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-6" target="JisXRQTTVyORfnQOxyK4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-6" value="send data on socket " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-8" target="JisXRQTTVyORfnQOxyK4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-8" value="get the time by server and Update that time by server " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JisXRQTTVyORfnQOxyK4-10" target="JisXRQTTVyORfnQOxyK4-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="550" />
+              <mxPoint x="230" y="550" />
+              <mxPoint x="230" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JisXRQTTVyORfnQOxyK4-10" value="&lt;div&gt;after time is over &lt;br&gt;&lt;/div&gt;&lt;div&gt;server will send winner data using socket on same url &lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
